@@ -1,52 +1,96 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <title>THAT BOOTY!</title>
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-  <head>
-    <title>THAT BOOTY!</title>
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  </head>
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">Navbar</a>
+                </div>
 
-  <body>
-    <div class="container">
-      Here is a container
-      <div class="panel panel-default">
-	<div class="panel-heading">
-	  Here is a panel heading!
-	</div>
-	<div class="panel-body">
-	  And here is the inferior panel body :(
-	</div>
-      </div>
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#">Link</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#">Link</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </head>
 
-    <table class="table">
-      <th>
-	<td>Food</td><td>Price</td><td>Craziness</td>
-      </th>
-      <tr>
-	<td></td><td>Apple</td><td>0.75</td><td>3</td>
-      </tr>
-      <tr>
-	<td></td><td>Durian</td><td>4.00</td><td>8</td>
-      </tr>
-    </table>
+    <body>
+        <div class="container">
+            <h3>Panels</h3>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    Here is the panel's heading
+                </div>
+                <div class="panel-body">
+                    And here is the panel's body.
+                </div>
+            </div>
 
-    <div class="input-group">
-      <span class="input-group-addon" id="basic-addon1">@</span>
-      <input type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon1">
-    </div>
+            <h3>Tables:</h3>
+            <table class="table">
+                <thead>
+                    <th>Food</th><th>Price</th><th>Craziness</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Apple</td><td>0.75</td><td>3</td>
+                    </tr>
+                    <tr>
+                        <td>Durian</td><td>4.00</td><td>8</td>
+                    </tr>
+                </tbody>
+            </table>
 
-    <div class="btn-group" role="group" aria-label="...">
-      <button type="button" class="btn">Button</button>
-      <button type="button" class="btn">Mutton</button>
-    </div>
+            <h3>Inputs</h3>
+            <div class="input-group">
+                <span class="input-group-addon" id="basic-addon1">@</span>
+                <input type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon1">
+            </div>
 
-    <ul class="list-group">
-      <li class="list-group-item">Item 1</li>
-      <li class="list-group-item">Item 2</li>
-      <li class="list-group-item">Item 3</li>
-      <li class="list-group-item">Item 4</li>
-    </ul>
-    </div>
+            <h3>Buttons</h3>
+            <div class="btn-group">
+                <button type="button" class="btn btn-primary">Button 1</button>
+                <button type="button" class="btn btn-danger">Button 2</button>
+            </div>
 
-  </body>
+            <h3>Labels</h3>
+            <span class="label label-default">Default</span>
+            <span class="label label-primary">Primary</span>
+            <span class="label label-success">Success</span>
+            <span class="label label-info">Info</span>
+            <span class="label label-warning">Warning</span>
+            <span class="label label-danger">Danger</span>
+
+            <h3>List</h3>
+            <ul class="list-group">
+                <li class="list-group-item">Item 1</li>
+                <li class="list-group-item">Item 2</li>
+                <li class="list-group-item">Item 3</li>
+                <li class="list-group-item">Item 4</li>
+            </ul>
+
+            <h3>Columns</h3>
+            <div class="row">
+                <p class="col-md-4">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam a orci est. Phasellus rhoncus dui sapien, sit amet placerat purus viverra id. Donec mauris libero, facilisis sed lobortis sed, finibus sed elit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque sed nisl non odio aliquam tempor. Ut quis lectus aliquam, ullamcorper felis in, ultricies augue. Praesent tristique quis mi faucibus tincidunt. Vivamus felis quam, semper ut mollis eu, pharetra aliquam nisi. Vivamus sodales ante orci, vel vehicula tortor aliquet ac.
+                </p>
+                <p class="col-md-4">
+                Vestibulum sapien ligula, congue interdum nibh at, laoreet iaculis dolor. Mauris in tristique nisl. Phasellus vulputate, ex at varius viverra, sem elit consectetur nunc, a dapibus orci magna at orci. Phasellus non tempor tortor, quis sollicitudin ipsum. Proin eu mollis nisi. Mauris molestie nulla eget est efficitur tincidunt. Quisque sed accumsan magna. Proin imperdiet elementum sapien a condimentum. Sed cursus ante in cursus lobortis. Nunc pretium nibh vel nibh facilisis semper.
+                </p>
+                <p class="col-md-4">
+                Integer id libero id risus egestas sagittis ut ut ipsum. Suspendisse tristique purus eget massa imperdiet, eu rutrum nisi vulputate. Praesent ut nisi dapibus turpis semper ultricies. Fusce mollis eleifend turpis et viverra. Donec porttitor iaculis rutrum. Aliquam posuere cursus suscipit. Cras aliquet fermentum magna. Cras maximus sapien quis vulputate suscipit.
+                </p>
+
+            </div>
+        </div>
+
+    </body>
 </html>
